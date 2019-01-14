@@ -1,0 +1,5 @@
+*.py[cod]
+*.pth
+__pycache__
+
+
