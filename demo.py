@@ -46,5 +46,7 @@ def test_simple(model):
 
 
 
-test_simple(model)
+with torch.no_grad():
+    test_simple(model)
+
 print("We are done")
